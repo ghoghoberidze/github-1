@@ -5,7 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+ <style>
+    body{
+        background-color: rgb(80, 80, 255);
+
+    }
+h1 {
+text-align:center;
+}
+p {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+</style>
+
 <body>
+    <div class="dv">
+    <h1 class="article">freeCodeCamp Survey Form</h1>
+    <p class="stxt">Tell us about yourself</p>
     
-</body>
+    
+    <div class="formdiv">
+    <form class="form" action="">
+        <p>Name</p>
+        <input class="long" type="text" required id="text" name="text" placeholder="Enter your name">
+        <p>Email</p>   
+        <input class="long" type="email"  id="email" name="email" placeholder="Enter your Email" required>
+        <p>date</p>   
+        <input class="long" type="date">
+    <p>what do you do?</p>
+    <select class="long" name="role" id="role" required>
+        <option value="select current role">Select current role</option> 
+    <option value="student">student</option>
+    <option value="full time job">working</option>
+    <option value="full time learner">Full Time Learner</option>
+    <option value="prefer not to say">Prefer not to say</option>
+    <option value="other">other</option>
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+       <input type="radio" required name="rateing" id="radio">
+       <label for="radio">Definately</label>
+       <br>
+          <input type="radio" required name="rateing" id="radioo">    
+       <label for="radioo">Maybe</label>
+       <br>
+       <input type="radio" required name="rateing" id="radiooo">    
+       <label for="radiooo">Not sure</label>
+       <p>what is your favorite featur of freeCodeCamp?</p>
+       <select class="long" name="option" id="option" required>
+        <option value="select an option">Select an option</option> 
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="opensource">Open Source</option>
+        </select>
+       <br>
+       <p>What would you like to see improved? (check all that apply)</p>
+       <input type="checkbox" value="Front-end Projects" id="Front-end Projects">
+       <label for="Front-end Projects">Front-end Projects</label>
+    <br>
+       <input type="checkbox" value="Back-end Projects" id="Back-end Projects">
+       <label for="Back-end Projects">Back-end Projects</label>
+       <br>
+       <input type="checkbox" value="Data Visualization" id="Data Visualization">
+       <label for="Data Visualization">Data Visualization</label>
+       <br>
+       <input type="checkbox" value="Challenges" id="Challenges">
+       <label for="Challenges">Challenges</label>
+       <br>
+       <input type="checkbox" value="Open Source Community" id="Open Source Community">
+       <label for="Open Source Community">Open Source Community</label>
+       <br>
+       <input type="checkbox" value="Gitter help rooms" id="Gitter help rooms">
+       <label for="Gitter help rooms">Gitter help rooms</label>
+       <br>
+       <input type="checkbox" value="Videos" id="Videos">
+       <label for="Videos">Videos</label>
+       <br>
+       <input type="checkbox" value="City Meetups" id="City Meetups">
+       <label for="City Meetups">City Meetups</label>
+    <br>
+       <input type="checkbox" value="Wiki" id="Wiki">
+       <label for="Wiki">Wiki</label>
+    <br>
+       <input type="checkbox" value="Forum" id="Forum">
+       <label for="Forum">Forum</label>
+    <br>
+       <input type="checkbox" value="Additional Courses" id="Additional Courses">
+       <label for="Additional Courses">Additional Courses</label>
+       <br>
+       <p>Any comment or suggestions?</p>
+       <textarea class="long" name="" id="" cols="" rows="" placeholder="Enter your comment here..."></textarea>
+       <button class="butt" type="submit">register</button>
+    </form>
+    </div>
+    </div>
+    </body>
 </html>
